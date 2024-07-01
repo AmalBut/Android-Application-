@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/call"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.call.CallFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="551dp"
+        android:layout_height="852dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/piza"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/gmail_bt"
+        android:layout_width="364dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="116dp"
+        android:backgroundTint="#E8FB5103"
+        android:text="📧: AdvancePizza@Pizza.com"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/map_bt" />
+
+    <Button
+        android:id="@+id/call_bt"
+        android:layout_width="364dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="188dp"
+        android:backgroundTint="#E8FB5103"
+        android:text="📞:0599000000"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/map_bt"
+        android:layout_width="364dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="116dp"
+        android:backgroundTint="#E8FB5103"
+        android:text="🗺️: Open Google Maps"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/call_bt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

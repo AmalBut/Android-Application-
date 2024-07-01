@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="inherit">
+
+    <TextView
+        android:id="@+id/textLogPage"
+        android:layout_width="0dp"
+        android:layout_height="63dp"
+        android:background="#FA601A"
+        android:gravity="center_vertical"
+        android:text="Add Offer Page"
+        android:textColor="#FDFCFC"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Spinner
+        android:id="@+id/pizzaname_spinner"
+        android:layout_width="367dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="144dp"
+        android:contextClickable="false"
+        android:entries="@array/spinnerItems"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/pizzasize_spinner"
+        android:layout_width="367dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="220dp"
+        android:contextClickable="false"
+        android:entries="@array/spinnerItems"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/discount"
+        android:layout_width="365dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:hint="Discount Amount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textView_endDate"
+        android:layout_width="364dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="388dp"
+        android:ems="10"
+        android:hint="End Date  YYYY-MM-DD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addoffer"
+        android:layout_width="364dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="476dp"
+        android:backgroundTint="#E8FB5103"
+        android:text="Add Offer"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="364dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="140dp"
+        android:backgroundTint="#E8FB5103"
+        android:text="Back"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

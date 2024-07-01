@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.advancepizza.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/logout"
+        android:name="com.example.advancepizza.ui.logout.LogoutFragment"
+        android:label="Log Out"
+        tools:layout="@layout/fragment_logout" />
+
+    <fragment
+        android:id="@+id/callfind"
+        android:name="com.example.advancepizza.ui.call.CallFragment"
+        android:label="Call"
+        tools:layout="@layout/fragment_call" />
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.advancepizza.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/pizzamenu"
+        android:name="com.example.advancepizza.ui.pizzamenu.PizzaMenuFragment"
+        android:label="Pizza Menu"
+        tools:layout="@layout/fragment_pizzamenu" />
+
+    <fragment
+        android:id="@+id/fav"
+        android:name="com.example.advancepizza.ui.favorite.FavoriteFragment"
+        android:label="Favorite Pizza"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/yourorders"
+        android:name="com.example.advancepizza.ui.order.OrderedPizzasFragment"
+        android:label="Order Pizza"
+        tools:layout="@layout/fragment_order" />
+    <fragment
+        android:id="@+id/specialoffers"
+        android:name="com.example.advancepizza.ui.specialoffer.SpecialOfferFragment"
+        android:label="Special Offer Pizza"
+        tools:layout="@layout/fragment_special_offer" />
+
+
+</navigation>

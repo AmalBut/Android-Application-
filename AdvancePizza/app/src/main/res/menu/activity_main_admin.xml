@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navAdmin_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/navAdmin_addAdmin"
+            android:icon="@drawable/ic_add_admin"
+            android:title="Add Admin" />
+
+        <item
+            android:id="@+id/navAdmin_viewAllOrders"
+            android:icon="@drawable/baseline_assignment_24"
+            android:title="View All Orders" />
+
+        <item
+            android:id="@+id/navAdmin_addSpecialOffer"
+            android:icon="@drawable/baseline_add_24"
+            android:title="Add Special Offer" />
+
+        <item
+            android:id="@+id/navAdmin_calculate"
+            android:icon="@drawable/ic_calculate"
+            android:title="Calculations" />
+
+
+        <item
+            android:id="@+id/navAdmin_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+
+
+    </group>
+
+
+</menu>
